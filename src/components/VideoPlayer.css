@@ -1,0 +1,28 @@
+/* VideoPlayer.css */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .video-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .custom-video {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer; /* Add this to show pointer cursor on hover */
+  }
+  
+  .custom-video:focus {
+    outline: none;
+    border-color: #666;
+  }
+  

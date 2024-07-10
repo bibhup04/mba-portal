@@ -1,0 +1,67 @@
+/* AboutMBA.css */
+
+.about-mba-container {
+    position: relative;
+    margin-top: 3px;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    min-height: 94vh;
+    color: #fff; /* White text to contrast the background */
+    overflow: hidden;
+    z-index: 1;
+}
+
+.about-mba-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/AboutMBABackground1.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(10px); 
+    z-index: -1;
+}
+
+.about-mba-header {
+    margin-top: 60px;
+    text-align: center;
+    color: #FF4500; /* Bright orange color to symbolize basketball */
+    margin-bottom: 20px;
+}
+
+.about-mba-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for nav */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.about-mba-nav li {
+    margin: 0 15px;
+}
+
+.about-mba-nav a {
+    text-decoration: none;
+    color: #fff; /* White text for nav links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.about-mba-nav a:hover {
+    color: #FF4500; /* Bright orange hover color */
+}
+
+.sub-tab-content {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    z-index: 1;
+}
