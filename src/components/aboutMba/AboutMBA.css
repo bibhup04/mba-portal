@@ -1,36 +1,25 @@
-/* AboutMBA.css */
-
 .about-mba-container {
     position: relative;
     margin-top: 3px;
-    padding: 20px;
+    padding: 50px;
     font-family: 'Arial', sans-serif;
     min-height: 94vh;
-    color: #fff; /* White text to contrast the background */
+    color: #333; /* Dark gray text for readability */
     overflow: hidden;
     z-index: 1;
-}
-
-.about-mba-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../../../public/AboutMBABackground1.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: blur(10px); 
-    z-index: -1;
+    background-color: #f4f4f4; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .about-mba-header {
-    margin-top: 60px;
+    /* margin-top: 60px; */
     text-align: center;
     color: #FF4500; /* Bright orange color to symbolize basketball */
     margin-bottom: 20px;
+    font-size: 2.5em; /* Larger font size */
+    font-weight: bold; /* Bold header */
+    text-transform: uppercase; /* Uppercase text */
 }
 
 .about-mba-nav {
@@ -38,10 +27,11 @@
     justify-content: center;
     list-style: none;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for nav */
+    background-color: #333; /* Solid dark background for nav */
     padding: 10px;
     border-radius: 5px;
     z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Small shadow for depth */
 }
 
 .about-mba-nav li {
@@ -53,15 +43,20 @@
     color: #fff; /* White text for nav links */
     font-weight: bold;
     transition: color 0.3s ease;
+    padding: 5px 10px; /* Padding for better click area */
 }
 
 .about-mba-nav a:hover {
     color: #FF4500; /* Bright orange hover color */
+    text-shadow: 0 0 5px rgba(255, 69, 0, 0.5); /* Subtle glow effect */
 }
 
 .sub-tab-content {
     margin-top: 20px;
-    text-align: center;
-    font-size: 18px;
-    z-index: 1;
+    padding: 20px; /* Padding for content area */
+    background-color: #d9d5d5; /* White background for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left; /* Left-aligned text */
+    font-size: 1em; /* Regular font size */
 }

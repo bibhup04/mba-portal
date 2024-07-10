@@ -1,16 +1,12 @@
 import React from 'react';
-import VideoPlayer from '../VideoPlayer';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader  
-import './Home.css';
 import Slider from 'react-slick';
-
+import './Home.css';
 
 const images = [
     { src: `${process.env.PUBLIC_URL}/7.jpg`, text: 'Description for image 1' },
     { src: `${process.env.PUBLIC_URL}/3.jpg`, text: 'Description for image 2' },
     { src: `${process.env.PUBLIC_URL}/4.jpg`, text: 'Description for image 3' },
     { src: `${process.env.PUBLIC_URL}/5.jpg`, text: 'Description for image 4' },
-    // { src: `${process.env.PUBLIC_URL}/5.jpg`, text: 'Description for image 5' },
 ];
 
 const settings = {
@@ -24,9 +20,7 @@ const settings = {
     fade: true,
 };
 
-
 const Home = () => {
-    const videoName = 'basketball.mp4';
     return (
         <div className="home">
             <div className='content'>
@@ -41,11 +35,7 @@ const Home = () => {
                         ))}
                     </Slider>
                 </div>
-
-                <div>
-                    <h1>Welcome to My App</h1>
-                    <VideoPlayer videoName={videoName} />
-                </div>
+                {/* Additional sections can be added here */}
             </div>
         </div>
     );

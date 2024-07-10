@@ -5,7 +5,8 @@ import './AboutMBA.css'; // Import the CSS file
 import Mba from './Mba';
 import Vision from './Vision';
 import Mission from './Mission';
-import Members from './Members';
+import Members from './member/Members';
+
 
 
 const AboutMBA = () => {
@@ -15,7 +16,7 @@ const AboutMBA = () => {
 
   return (
     <div className="about-mba-container">
-      <h1 className="about-mba-header">About MBA</h1>
+      {/* <h1 className="about-mba-header">About MBA</h1> */}
       <ul className="about-mba-nav">
         <li><Link to={`${basePath}/vision`}>Vision</Link></li>
         <li><Link to={`${basePath}/mission`}>Mission</Link></li>
