@@ -1,4 +1,6 @@
 import React from 'react';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/home/Home';
@@ -7,6 +9,7 @@ import Gallery from './components/Gallery';
 import Events from './components/Events';
 import Contact from './components/Contact';
 import MemberForm from './components/MemberForm';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -23,6 +26,7 @@ const App = () => {
             <Route path="/member" element={<MemberForm />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );

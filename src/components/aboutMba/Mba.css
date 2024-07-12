@@ -3,8 +3,8 @@
 .mba-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align items to the start to reduce gap */
-    min-height: calc(100vh - 60px); /* Adjust the height based on the navbar height */
+    align-items: flex-start; 
+    min-height: calc(100vh - 60px - 50px);  
     padding: 20px;
     margin-top: 0; /* Ensure there's no margin at the top */
   }

@@ -6,7 +6,7 @@
     padding: 16px;
     margin: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 500px;  /* Set a fixed width */
+    width: 900px;  /* Set a fixed width */
     height: 200px; /* Set a fixed height */
     overflow: hidden; /* Hide overflow content */
     background-color: white;
@@ -41,8 +41,12 @@
   
   .member-details p {
     margin: 4px 0;
-    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .member-achievements {
+    white-space: normal; /* Allow text to wrap */
     overflow: hidden;
-    text-overflow: ellipsis; /* Display ellipsis for overflow text */
+    text-overflow: ellipsis;
+    text-align: justify; 
   }
   

@@ -6,4 +6,5 @@ body {
 
 main {
   padding-top: 60px; /* Adjust based on navbar height */
+  padding-bottom: 60px;
 }

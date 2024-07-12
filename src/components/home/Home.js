@@ -24,18 +24,31 @@ const Home = () => {
     return (
         <div className="home">
             <div className='content'>
-                <h1 className="heading">Welcome to Masters Basketball Academy</h1>
-                <div className="slider-container">
-                    <Slider {...settings}>
-                        {images.map((image, index) => (
-                            <div key={index} className="slide">
-                                <img src={image.src} alt={`Slide ${index}`} />
-                                <p className="slide-text">{image.text}</p>
-                            </div>
-                        ))}
-                    </Slider>
+                <div className='heading-container'>
+                    <h1 className="heading">Welcome to Masters Basketball Academy</h1>
                 </div>
-                {/* Additional sections can be added here */}
+                <div className='body'>
+                    <div className='slider-upcomingEvent-container'>
+                        <div className="slider-container">
+                            <Slider {...settings}>
+                                {images.map((image, index) => (
+                                    <div key={index} className="slide">
+                                        <img src={image.src} alt={`Slide ${index}`} />
+                                        <p className="slide-text">{image.text}</p>
+                                    </div>
+                                ))}
+                            </Slider>
+                        </div>
+                        <div className="upcoming-events">
+                            {/* Upcoming events component or content */}
+                            <h2>Upcoming Events</h2>
+                            <p>Details about upcoming events will go here.</p>
+                        </div>
+                    </div>
+                    <div className='other-content'>
+                        <p>Youtube videos and stuffs</p>
+                    </div>
+                </div>
             </div>
         </div>
     );

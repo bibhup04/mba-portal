@@ -12,9 +12,9 @@ const MemberCard = ({ member }) => {
       <div className="member-details">
         <h2>{member.name}</h2>
         <p>Age: {member.age}</p>
-        <p>Achievements: {member.achievements}</p>
-        <p>Profession: {member.profession}</p>
-        <p>Occupation: {member.occupation}</p>
+        <p className="member-achievements">{member.achievements}</p>
+        {/* <p>Profession: {member.profession}</p>
+        <p>Occupation: {member.occupation}</p> */}
       </div>
     </li>
   );

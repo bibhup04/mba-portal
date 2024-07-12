@@ -1,12 +1,33 @@
-.heading {
-  margin-top: 80px;
-  text-align: center;
+
+.home{
+  border-top: 10px solid #FF4500;
+  background-color: aquamarine;
+  justify-content: center;
 }
 
+.content {
+  width: 90%; 
+ 
+  margin: 0 auto; 
+  background-color: #FF4500;
+}
+
+.body{
+ background-color: green;
+}
+
+.heading {
+  margin: 0;
+  font-size: 3em;
+  color: #040404; /* Bright orange color to symbolize basketball */
+}
+
+
 .slider-container {
-  width: 100%;
+  width: 60%;
   margin: 0 auto;
   position: relative;
+  background-color: aqua;
 }
 
 .slide {
@@ -33,4 +54,30 @@
   padding: 5px 10px;
   border-radius: 5px;
   z-index: 1;
+}
+
+.slider-upcomingEvent-container {
+  display: flex;
+  width: 100%;
+  height: 500px; /* Adjust as needed */
+  /* margin-left: 20px; */
+  margin-bottom: 30px;
+}
+
+
+.upcoming-events {
+  flex: 0 0 30%; /* 40% width */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  background: #a8a5a5; /* Light background for contrast */
+  border-left: 1px solid #ccc; /* Optional separator */
+}
+
+
+.other-content{
+  background: #f0f0f0;
 }
