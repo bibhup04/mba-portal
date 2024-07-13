@@ -1,17 +1,23 @@
+.aboutMba-home{
+    border-top: 10px solid #FF4500;
+    background-color: #e7e7e7;
+    justify-content: center;
+  }
+
 .about-mba-container {
     position: relative;
     /* margin-top: 3px; */
     /* padding: 50px; */
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
     padding-bottom: 50px;
     font-family: 'Arial', sans-serif;
     min-height: calc(100vh - 60px - 180px);  
     color: #333; /* Dark gray text for readability */
     overflow: hidden;
     /* z-index: 1; */
-    background-color: #f4f4f4; /* Light background color */
-    border-radius: 10px; /* Rounded corners */
+    background-color: #f4f4f4; 
+    /* border-radius: 10px;  */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
@@ -55,9 +61,9 @@
 }
 
 .sub-tab-content {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 20px; /* Padding for content area */
-    background-color: #d9d5d5; /* White background for content */
+    background-color:#e7e7e7;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     text-align: left; /* Left-aligned text */

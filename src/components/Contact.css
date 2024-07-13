@@ -3,6 +3,11 @@
     flex-direction: column;
     align-items: center;
   }
+  .contact-home{
+    border-top: 10px solid #FF4500;
+    background-color: #e7e7e7;
+    justify-content: center;
+  }
   
   .top-heading {
     height: 40vh;
@@ -10,8 +15,9 @@
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     text-align: center; /* Center text inside the container */
-    background-color: #f9f9f9; /* Optional: Add a background color */
+    background-color: #333; /* Optional: Add a background color */
     width: 100%;
+    color: white;
   }
   
   .contact-body {
@@ -30,8 +36,9 @@
     flex: 1; /* Makes both child divs take equal space */
   margin: 10px; /* Optional: Adds some spacing between the divs */
   padding: 20px; /* Optional: Adds padding inside the child divs */
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   margin-bottom: 40px;
+  /* text-align: center; */
   }
   
   .contact-heading {
@@ -42,35 +49,12 @@
   .Contact-content {
     margin-bottom: 20px;
   }
-  
-  /* form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+  .contact-desc{
+    justify-content: center;
   }
   
-  input,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  } */
+
   
   form {
     display: flex;

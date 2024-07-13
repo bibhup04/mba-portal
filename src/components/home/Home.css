@@ -1,19 +1,32 @@
 
 .home{
   border-top: 10px solid #FF4500;
-  background-color: aquamarine;
+  background-color: #e7e7e7;
   justify-content: center;
 }
+
+.heading-container{
+  height: 40vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text inside the container */
+  background-color: #e7e7e7; /* Optional: Add a background color */
+  width: 100%;
+  color: white;
+}
+
 
 .content {
   width: 90%; 
  
   margin: 0 auto; 
-  background-color: #FF4500;
+  background-color: rgb(243 237 237 / 80%);
 }
 
 .body{
- background-color: green;
+ /* background-color: green; */
+ margin-top: 20px;
 }
 
 .heading {

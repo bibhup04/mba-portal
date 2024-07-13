@@ -23,10 +23,11 @@ const settings = {
 const Home = () => {
     return (
         <div className="home">
-            <div className='content'>
-                <div className='heading-container'>
+            <div className='heading-container'>
                     <h1 className="heading">Welcome to Masters Basketball Academy</h1>
                 </div>
+            <div className='content'>
+                
                 <div className='body'>
                     <div className='slider-upcomingEvent-container'>
                         <div className="slider-container">

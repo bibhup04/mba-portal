@@ -10,6 +10,7 @@ import Events from './components/Events';
 import Contact from './components/Contact';
 import MemberForm from './components/MemberForm';
 import Footer from './components/Footer';
+import Members from './components/aboutMba/member/Members';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-mba/*" element={<AboutMBA />} />
+            <Route path='/members' element={<Members />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />

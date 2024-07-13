@@ -15,22 +15,30 @@ const AboutMBA = () => {
   const basePath = match ? match.pathnameBase : '';
 
   return (
+    <div className='aboutMba-home'>
+      <div className='top-heading'>
+        <h1>About MBA</h1>
+      </div>
     <div className="about-mba-container">
       {/* <h1 className="about-mba-header">About MBA</h1> */}
-      <ul className="about-mba-nav">
+      {/* <ul className="about-mba-nav">
         <li><Link to={`${basePath}/vision`}>Vision</Link></li>
         <li><Link to={`${basePath}/mission`}>Mission</Link></li>
         <li><Link to={`${basePath}/members`}>Members</Link></li>
-      </ul>
+      </ul> */}
 
       <div className="sub-tab-content">
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Mba />} />
           <Route path="vision" element={<Vision />} />
           <Route path="mission" element={<Mission />} />
           <Route path="members" element={<Members />} />
-        </Routes>
+        </Routes> */}
+        <Mba />
+        <Vision />
+        <Mission />
       </div>
+    </div>
     </div>
   );
 };

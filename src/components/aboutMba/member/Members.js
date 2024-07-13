@@ -33,17 +33,22 @@ const Members = () => {
   };
 
   return (
-    <div className="members-container">
-      {categories.map((category) => (
-        <div key={category} className="member-category">
-          <h1>{category}</h1>
-          <ul>
-            {categorizeMembers(category).map((member) => (
-              <MemberCard key={member.id} member={member} />
-            ))}
-          </ul>
-        </div>
-      ))}
+    <div className='aboutMba-home'>
+      <div className='top-heading'>
+        <h1>Members</h1>
+      </div>
+      <div className="members-container">
+        {categories.map((category) => (
+          <div key={category} className="member-category">
+            <h1>{category}</h1>
+            <ul>
+              {categorizeMembers(category).map((member) => (
+                <MemberCard key={member.id} member={member} />
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
