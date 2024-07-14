@@ -15,7 +15,7 @@ const AboutMBA = () => {
   const basePath = match ? match.pathnameBase : '';
 
   return (
-    <div className='aboutMba-home'>
+    <div className='home'>
       <div className='top-heading'>
         <h1>About MBA</h1>
       </div>

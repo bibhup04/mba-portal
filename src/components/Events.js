@@ -2,9 +2,15 @@ import React from 'react';
 
 const Events = () => {
   return (
-    <div>
-      <h1>Upcoming Events</h1>
-      <p>Details about upcoming events...</p>
+    <div className='home'>
+      <div className='top-heading'>
+        <h1>Upcoming Events</h1>
+      </div>
+      <div className='event-container'>
+        <div>
+          <p>Details about upcoming events...</p>
+        </div>
+      </div>
     </div>
   );
 };

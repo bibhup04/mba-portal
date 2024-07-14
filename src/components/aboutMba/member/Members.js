@@ -33,7 +33,7 @@ const Members = () => {
   };
 
   return (
-    <div className='aboutMba-home'>
+    <div className='home'>
       <div className='top-heading'>
         <h1>Members</h1>
       </div>

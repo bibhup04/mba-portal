@@ -1,0 +1,12 @@
+.gallery-container{
+    position: relative;
+    padding-bottom: 50px;
+    font-family: 'Arial', sans-serif;
+    min-height: calc(100vh - 60px - 180px);  
+    color: #333;
+    overflow: hidden;
+    /* z-index: 1; */
+    background-color: #f4f4f4; 
+    /* border-radius: 10px;  */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}

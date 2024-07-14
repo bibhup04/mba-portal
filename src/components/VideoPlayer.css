@@ -1,28 +1,45 @@
-/* VideoPlayer.css */
 .video-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .video-container h1 {
-    margin-bottom: 20px;
-    color: #333;
-    font-size: 24px;
-  }
-  
-  .custom-video {
-    width: 100%;
-    max-width: 600px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    cursor: pointer; /* Add this to show pointer cursor on hover */
-  }
-  
-  .custom-video:focus {
-    outline: none;
-    border-color: #666;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  /* max-width: 600px; */
+  cursor: pointer; /* Add this to show pointer cursor on hover */
+}
+
+.custom-video {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-video:focus {
+  outline: none;
+  border-color: #666;
+}
+
+.play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.play-button {
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
